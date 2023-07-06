@@ -1,0 +1,9 @@
+[{
+		"id":	"room1",
+		"name":	"Test Room 1",
+		"time_start":	1625480400,
+		"duration":	60,
+		"num_students":	20,
+		"total_points":	100,
+		"rank_point_limit":	150
+	}]

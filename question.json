@@ -1,0 +1,552 @@
+[
+    {
+      "id": "q1",
+      "text": "What is the maximum permissible blood alcohol concentration (BAC) for drivers in most states?",
+      "choices": [
+        "0.01%",
+        "0.05%",
+        "0.08%",
+        "0.10%"
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q2",
+      "text": "What is the proper way to take a turn?",
+      "choices": [
+        "Accelerate through the turn.",
+        "Brake hard before the turn.",
+        "Slow down before the turn, then accelerate through it.",
+        "Maintain speed through the turn."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q3",
+      "text": "What is the speed limit in residential areas in most states?",
+      "choices": [
+        "25 mph",
+        "35 mph",
+        "45 mph",
+        "55 mph"
+      ],
+      "correct_choice": 0      
+    },
+    {
+      "id": "q4",
+      "text": "What should you do when you approach a railroad crossing?",
+      "choices": [
+        "Speed up to cross the tracks quickly.",
+        "Slow down and look both ways.",
+        "Honk your horn to warn other drivers.",
+        "Ignore the crossing if the gates are up."
+      ],
+      "correct_choice": 1      
+    },
+    {
+      "id": "q5",
+      "text": "What is the proper way to park on a hill?",
+      "choices": [
+        "Park with your wheels facing uphill.",
+        "Park with your wheels facing downhill.",
+        "Park parallel to the curb.",
+        "It doesn't matter which way your wheels are facing."
+      ],
+      "correct_choice": 0      
+    },
+    {
+      "id": "q6",
+      "text": "What is the minimum following distance you should maintain from the car in front of you?",
+      "choices": [
+        "5 seconds",
+        "2 seconds",
+        "1 second",
+        "10 seconds"
+      ],
+      "correct_choice": 1      
+    },
+    {
+      "id": "q7",
+      "text": "What should you do if you miss your exit on the highway?",
+      "choices": [
+        "Make a U-turn and go back.",
+        "Stop on the shoulder and wait for help.",
+        "Exit at the next available off-ramp and turn around.",
+        "Continue driving until you reach your destination."
+      ],
+      "correct_choice": 2      
+    },
+    {
+      "id": "q8",
+      "text": "What is the proper way to change lanes?",
+      "choices": [
+        "Signal, check mirrors, and change lanes.",
+        "Change lanes without signaling.",
+        "Check mirrors, then signal and change lanes.",
+        "Change lanes quickly to avoid slowing down."
+      ],
+      "correct_choice": 0      
+    },
+    {
+      "id": "q9",
+      "text": "What should you do if you are involved in a car accident?",
+      "choices": [
+        "Drive away from the scene.",
+        "Exchange information with the other driver.",
+        "Ignore the other driver and continue driving.",
+        "Call the police and report the accident."
+      ],
+      "correct_choice": 3    
+    },
+    {
+      "id": "q10",
+      "text": "What is the maximum speed limit on most highways?",
+      "choices": [
+        "50 mph",
+        "60 mph",
+        "70 mph",
+        "80 mph"
+      ],
+      "correct_choice": 2      
+    },
+    {
+    "id": "q11",
+    "text": "What should you do if your brakes fail while driving?",
+    "choices": [
+      "Pump the brakes rapidly.",
+      "Shift into neutral and steer to a safe location.",
+      "Turn off the engine and coast to a stop.",
+      "Turn on the hazard lights and stop immediately."
+    ],
+    "correct_choice": 1
+    },
+    {
+    "id": "q12",
+    "text": "What does a yellow traffic light mean?",
+    "choices": [
+      "Stop if it is safe to do so.",
+      "Slow down and prepare to stop.",
+      "Proceed with caution.",
+      "Speed up to avoid running the light."
+    ],
+    "correct_choice": 2
+    },
+    {
+    "id": "q13",
+    "text": "What should you do if you encounter a pedestrian crossing the street?",
+    "choices": [
+      "Honk your horn to warn them.",
+      "Swerve to avoid hitting them.",
+      "Slow down or stop to let them cross.",
+      "Continue driving without stopping."
+    ],
+    "correct_choice": 2
+    },
+    {
+    "id": "q14",
+    "text": "What is the proper way to use your turn signals?",
+    "choices": [
+      "Signal before you start turning.",
+      "Signal while you are turning.",
+      "Signal after you have completed the turn.",
+      "You don't need to use turn signals."
+    ],
+    "correct_choice": 0
+    },
+    {
+    "id": "q15",
+    "text": "What should you do if you see a school bus with its red lights flashing?",
+    "choices": [
+      "Stop and wait until the red lights stop flashing.",
+      "Slow down and proceed with caution.",
+      "Pass the bus quickly.",
+      "Ignore the bus and continue driving."
+    ],
+    "correct_choice": 0
+    },
+    {
+    "id": "q16",
+    "text": "What should you do if you are driving and it starts to rain?",
+    "choices": [
+      "Turn on your high beams.",
+      "Turn on your hazard lights.",
+      "Increase your speed to get to your destination faster.",
+      "Slow down and increase your following distance."
+    ],
+    "correct_choice": 3
+    },
+    {
+    "id": "q17",
+    "text": "What should you do if you are driving and your car starts to skid?",
+    "choices": [
+      "Brake hard and steer in the opposite direction.",
+      "Take your foot off the gas and steer in the direction you want to go.",
+      "Accelerate and steer in the direction you want to go.",
+      "Jump out of the car and roll away."
+    ],
+    "correct_choice": 1
+    },
+    {
+    "id": "q18",
+    "text": "What should you do if you have a tire blowout while driving?",
+    "choices": [
+      "Brake hard and come to a stop.",
+      "Swerve back and forth to maintain control.",
+      "Take your foot off the gas and steer to a safe location.",
+      "Accelerate and try to get off the road quickly."
+    ],
+    "correct_choice": 2
+    },
+    {
+    "id": "q19",
+    "text": "What should you do if you are driving and a vehicle in front of you is moving slowly?",
+    "choices": [
+      "Honk your horn to get them to speed up.",
+      "Tailgate them to encourage them to move faster.",
+      "Pass them when it is safe to do so.",
+      "Stay behind them and maintain a safe following distance."
+    ],
+    "correct_choice": 3
+    },
+    {
+    "id": "q20",
+    "text": "What should you do if you are driving and a warning light comes on in your car?",
+    "choices": [
+      "Ignore it and keep driving.",
+      "Take your car to a mechanic as soon as possible.",
+      "Turn off your car and call for a tow truck.",
+      "Speed up to get to your destination before the car breaks down."
+    ],
+    "correct_choice": 1
+    },
+    {
+      "id": "q21",
+      "text": "What should you do if you are driving and a fire breaks out in your car?",
+      "choices": [
+        "Stop the car and try to put out the fire.",
+        "Open the windows and doors to let the fire out.",
+        "Drive to the nearest gas station to get help.",
+        "Pull over to a safe location and evacuate the car."
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id": "q22",
+      "text": "What should you do if you are driving and a strong gust of wind hits your car?",
+      "choices": [
+        "Brake hard and come to a stop.",
+        "Steer in the direction of the wind.",
+        "Take your foot off the gas and grip the steering wheel firmly.",
+        "Accelerate to get through the wind faster."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q23",
+      "text": "What should you do if you are driving and a traffic light is out of order?",
+      "choices": [
+        "Treat it as a stop sign.",
+        "Ignore it and keep driving.",
+        "Proceed through the intersection with caution.",
+        "Speed up to get through the intersection faster."
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id": "q24",
+      "text": "What should you do if you are driving and a pedestrian is crossing the street at a crosswalk?",
+      "choices": [
+        "Honk your horn to warn them.",
+        "Slow down or stop to let them cross.",
+        "Speed up to get through the crosswalk faster.",
+        "Swerve to avoid hitting them."
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id": "q25",
+      "text": "What should you do if you are driving and a bicyclist is riding in front of you?",
+      "choices": [
+        "Honk your horn to get them to move over.",
+        "Tailgate them to encourage them to ride faster.",
+        "Pass them when it is safe to do so.",
+        "Stay behind them and maintain a safe following distance."
+      ],
+      "correct_choice": 3
+    },
+  {
+    "id": "q26",
+    "text": "What should you do if your car starts to overheat?",
+    "choices": [
+      "Turn on the air conditioning to cool down the engine.",
+      "Stop the car and let it cool down before continuing.",
+      "Pour water over the engine to cool it down.",
+      "Accelerate to get to your destination faster."
+    ],
+    "correct_choice": 1
+  },
+  {
+    "id": "q27",
+    "text": "What should you do if you are driving and your car's accelerator pedal gets stuck?",
+    "choices": [
+      "Brake hard and come to a stop.",
+      "Shift into neutral and steer to a safe location.",
+      "Turn off the engine and coast to a stop.",
+      "Accelerate to get through the problem faster."
+    ],
+    "correct_choice": 1
+  },
+  {
+    "id": "q28",
+    "text": "What should you do if you are driving and a tire blows out?",
+    "choices": [
+      "Brake hard and come to a stop.",
+      "Swerve back and forth to maintain control.",
+      "Take your foot off the gas and steer to a safe location.",
+      "Accelerate and try to get off the road quickly."
+    ],
+    "correct_choice": 2
+  },
+  {
+    "id": "q29",
+    "text": "What should you do if you are driving and a warning light comes on in your car?",
+    "choices": [
+      "Ignore it and keep driving.",
+      "Take your car to a mechanic as soon as possible.",
+      "Turn off your car and call for a tow truck.",
+      "Speed up to get to your destination before the car breaks down."
+    ],
+    "correct_choice": 1
+  },
+  {
+    "id": "q30",
+    "text": "What should you do if you are driving and your brakes fail?",
+    "choices": [
+      "Pump the brakes rapidly.",
+      "Shift into neutral and steer to a safe location.",
+      "Turn off the engine and coast to a stop.",
+      "Accelerate to get through the problem faster."
+    ],
+    "correct_choice": 1
+  },
+  {
+      "id": "q31",
+      "text": "What should you do if you are driving and a deer runs in front of your car?",
+      "choices": [
+        "Brake hard and swerve to avoid hitting the deer.",
+        "Accelerate to get through the situation faster.",
+        "Honk your horn to scare the deer away.",
+        "Stay on course and hit the deer if necessary."
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id": "q32",
+      "text": "What should you do if you are driving and your headlights go out?",
+      "choices": [
+        "Turn on your high beams.",
+        "Turn on your hazard lights.",
+        "Turn on your fog lights.",
+        "Pull over to a safe location and fix the problem."
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id": "q33",
+      "text": "What should you do if you are driving and feel drowsy?",
+      "choices": [
+        "Turn up the radio to stay awake.",
+        "Roll down the windows to get fresh air.",
+        "Stop and take a nap.",
+        "Drink caffeine to stay alert."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q34",
+      "text": "What should you do if you are driving and a car is following you too closely?",
+      "choices": [
+        "Brake suddenly to get the car to back off.",
+        "Speed up to get away from the car.",
+        "Move to the right lane and let the car pass.",
+        "Stay in your current lane and ignore the car."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q35",
+      "text": "What should you do if you are driving and a car is coming towards you in your lane?",
+      "choices": [
+        "Brake hard and come to a stop.",
+        "Swerve to avoid the car.",
+        "Accelerate to get through the situation faster.",
+        "Flash your headlights to warn the other driver."
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id": "q36",
+      "text": "What should you do if you are driving and a tire blows out?",
+      "choices": [
+        "Brake hard and come to a stop.",
+        "Swerve back and forth to maintain control.",
+        "Take your foot off the gas and steer to a safe location.",
+        "Accelerate and try to get off the road quickly."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q37",
+      "text": "What should you do if you are driving and your steering wheel becomes unresponsive?",
+      "choices": [
+        "Brake hard and come to a stop.",
+        "Accelerate to get through the situation faster.",
+        "Turn off the engine and coast to a stop.",
+        "Shift into neutral and steer to a safe location."
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id": "q38",
+      "text": "What should you do if you are driving and your car starts to hydroplane on a wet road?",
+      "choices": [
+        "Brake hard and come to a stop.",
+        "Accelerate to get through the situation faster.",
+        "Steer in the direction of the skid.",
+        "Take your foot off the gas and steer to a safe location."
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id": "q39",
+      "text": "What should you do if you are driving and your car's headlights are not working properly?",
+      "choices": [
+        "Ignore the problem and keep driving.",
+        "Turn on your high beams.",
+        "Turn on your fog lights.",
+        "Pull over to a safe location and fix the problem."
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id": "q40",
+      "text": "What should you do if you are driving and your car starts to skid on ice?",
+      "choices": [
+        "Brake hard and come to a stop.",
+        "Accelerate to get through the situation faster.",
+        "Steer in the direction of the skid.",
+        "Turn off the engine and coast to a stop."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q41",
+      "text": "What should you do if you are driving and your car's battery dies?",
+      "choices": [
+        "Disconnect the battery and reconnect it.",
+        "Call a tow truck to jumpstart the battery.",
+        "Push the car to a safe location and jumpstart the battery.",
+        "Replace the battery yourself."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q42",
+      "text": "What should you do if you are driving and a car merges into your lane without signaling?",
+      "choices": [
+        "Honk your horn to alert the driver.",
+        "Brake hard and come to a stop.",
+        "Swerve to avoid the car.",
+        "Take your foot off the gas and let the car merge."
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id": "q43",
+      "text": "What should you do if you are driving and a car is tailgating you?",
+      "choices": [
+        "Brake suddenly to get the car to back off.",
+        "Speed up to get away from the car.",
+        "Move to the right lane and let the car pass.",
+        "Stay in your current lane and ignore the car."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q44",
+      "text": "What should you do if you are driving and your car's brakes feel spongy?",
+      "choices": [
+        "Ignore the problem and keep driving.",
+        "Pump the brakes to build up pressure.",
+        "Take your car to a mechanic as soon as possible.",
+        "Turn off the engine and coast to a stop."
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id": "q45",
+      "text": "What should you do if you are driving and your car's engine starts to smoke?",
+      "choices": [
+        "Turn on the air conditioning to cool down the engine.",
+        "Stop the car and try to put out the fire.",
+        "Take your car to a mechanic as soon as possible.",
+        "Accelerate to get through the problem faster."
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id": "q46",
+      "text": "What should you do if you are driving and your car's oil pressure warning light comes on?",
+      "choices": [
+        "Take your car to a mechanic as soon as possible.",
+        "Add more oil to the engine.",
+        "Turn off the engine and coast to a stop.",
+        "Accelerate to get through the problem faster."
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id": "q47",
+      "text": "What should you do if you are driving and your car's transmission starts to slip?",
+      "choices": [
+        "Take your car to a mechanic as soon as possible.",
+        "Add more transmission fluid.",
+        "Turn off the engine and coast to a stop.",
+        "Accelerate to get through the problem faster."
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id": "q48",
+      "text": "What should you do if you are driving and the road is flooded?",
+      "choices": [
+        "Accelerate to get through the water faster.",
+        "Brake hard and come to a stop.",
+        "Drive slowly and cautiously through the water.",
+        "Turn around and find an alternate route."
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id": "q49",
+      "text": "What should you do if you are driving and your car's alternator fails?",
+      "choices": [
+        "Take your car to a mechanic as soon as possible.",
+        "Disconnect the battery and reconnect it.",
+        "Replace the alternator yourself.",
+        "Turn off the engine and coast to a stop."
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id": "q50",
+      "text": "What should you do if you are driving and your car's airbag deploys?",
+      "choices": [
+        "Stop the car and call for help.",
+        "Continue driving as normal.",
+        "Pull over to a safe location and assess the damage.",
+        "Turn off the engine and wait for the airbag to deflate."
+      ],
+      "correct_choice": 2
+    }
+]
