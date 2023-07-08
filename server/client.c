@@ -119,8 +119,8 @@ int main(int argc, char const *argv[])
         printf("3.start test\n");
         printf("4.end test\n");
         printf("5.get results\n");
-        printf("6.get room summary\n\n");
-        printf("7.get available room");
+        printf("6.get room summary\n");
+        printf("7.get available room\n\n");
         scanf("%i", &choice);
 
         root = cJSON_CreateObject();
@@ -128,18 +128,15 @@ int main(int argc, char const *argv[])
         {
         case 1:
             cJSON_AddStringToObject(root, "type", "create_room");
-            cJSON_AddStringToObject(root, "name", "room x");
+            cJSON_AddStringToObject(root, "name", "room2");
             cJSON_AddNumberToObject(root, "duration", 45);
-            cJSON_AddNumberToObject(root, "total_points", 30);
+            cJSON_AddNumberToObject(root, "total_points", 15);
             cJSON_AddNumberToObject(root, "time_start", time(NULL));
-            cJSON_AddNumberToObject(root, "rank_point_limit", 150);
+            cJSON_AddNumberToObject(root, "rank_point_limit", 110);
             break;
         case 2:
-
-            printf("room_id: ");
-            scanf(" %s", room_id);
             cJSON_AddStringToObject(root, "type", "join_room");
-            cJSON_AddStringToObject(root, "room_id", room_id);
+            cJSON_AddStringToObject(root, "room_id", "room1");
             cJSON_AddStringToObject(root, "username", name);
             break;
         case 3:
@@ -149,9 +146,9 @@ int main(int argc, char const *argv[])
             break;
         case 4:
             cJSON_AddStringToObject(root, "type", "submit_answer");
-            cJSON_AddStringToObject(root, "room_id", room_id);
+            cJSON_AddStringToObject(root, "room_id", "room1");
             cJSON_AddStringToObject(root, "username", name);
-            cJSON_AddNumberToObject(root, "points", 20);
+            cJSON_AddNumberToObject(root, "points", 30);
             cJSON_AddNumberToObject(root, "start_time", time(NULL));
             cJSON_AddNumberToObject(root, "end_time", time(NULL));
             break;
@@ -161,10 +158,10 @@ int main(int argc, char const *argv[])
             break;
         case 6:
             cJSON_AddStringToObject(root, "type", "get_test_summary");
-            cJSON_AddStringToObject(root, "room_id", room_id);
+            cJSON_AddStringToObject(root, "room_id", "room1");
             break;
         case 7:
-            cJSON_AddStringToObject(root, "type", "get_rooms");
+            cJSON_AddStringToObject(root, "type", "get_all_rooms");
             cJSON_AddStringToObject(root, "username", name);
             break;
         }

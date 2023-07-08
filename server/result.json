@@ -1,0 +1,19 @@
+[{
+		"username":	"nam",
+		"room_id":	"room1",
+		"points":	30,
+		"start_time":	1688805501,
+		"end_time":	1688805501
+	}, {
+		"username":	"cuong",
+		"room_id":	"room2",
+		"points":	95,
+		"start_time":	1625566800,
+		"end_time":	1625568300
+	}, {
+		"username":	"cuong",
+		"room_id":	"room1",
+		"points":	30,
+		"start_time":	1688805543,
+		"end_time":	1688805543
+	}]

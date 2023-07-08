@@ -1,13 +1,17 @@
 [{
 		"username":	"nam",
 		"passwork":	"123",
-		"rank_point":	120
+		"rank_point":	200
 	}, {
 		"username":	"cuong",
 		"passwork":	"123",
-		"rank_point":	200
+		"rank_point":	250
 	}, {
 		"username":	"dung",
-		"passwork":	"dq323",
+		"passwork":	"123",
+		"rank_point":	0
+	}, {
+		"username":	"nga",
+		"passwork":	"123",
 		"rank_point":	0
 	}]

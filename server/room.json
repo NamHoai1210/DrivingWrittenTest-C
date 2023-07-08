@@ -1,0 +1,29 @@
+[{
+		"id":	"room1",
+		"name":	"Test Room 1",
+		"time_start":	1625480400,
+		"duration":	60,
+		"total_points":	15,
+		"rank_point_limit":	150
+	}, {
+		"id":	"89383",
+		"name":	"room2",
+		"time_start":	1688803469,
+		"duration":	45,
+		"total_points":	15,
+		"rank_point_limit":	0
+	}, {
+		"id":	"89383",
+		"name":	"room2",
+		"time_start":	1688803914,
+		"duration":	45,
+		"total_points":	15,
+		"rank_point_limit":	0
+	}, {
+		"id":	"79336",
+		"name":	"room2",
+		"time_start":	1688805582,
+		"duration":	45,
+		"total_points":	15,
+		"rank_point_limit":	0
+	}]
