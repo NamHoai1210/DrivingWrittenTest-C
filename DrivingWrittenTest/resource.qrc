@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icons/right.png</file>
+        <file>resources/images/exam.svg</file>
+        <file>resources/images/main.svg</file>
+        <file>resources/images/book.svg</file>
+        <file>resources/icons/undo.png</file>
+        <file>resources/images/study.svg</file>
+        <file>db/easy.json</file>
+        <file>db/hard.json</file>
+        <file>db/medium.json</file>
+        <file>resources/gif/waiting.gif</file>
+        <file>resources/icons/menu.png</file>
+        <file>resources/images/me.svg</file>
+        <file>resources/images/group.png</file>
+        <file>resources/icons/down.png</file>
+        <file>resources/icons/logout.png</file>
+    </qresource>
+</RCC>
