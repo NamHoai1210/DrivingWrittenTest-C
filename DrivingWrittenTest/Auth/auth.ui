@@ -27,7 +27,7 @@
      <string notr="true">background-color: rgb(240, 245, 245);</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="login">
      <widget class="QWidget" name="horizontalLayoutWidget">
@@ -180,7 +180,7 @@ padding-right: 10px;</string>
            <string notr="true">color: rgb(245, 105, 101);</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is error&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -573,7 +573,7 @@ QPushButton:hover {
             <number>30</number>
            </property>
            <item row="0" column="1">
-            <widget class="QLineEdit" name="SUusernameEntry_5">
+            <widget class="QLineEdit" name="SUusernameEntry">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -627,7 +627,7 @@ padding-right: 10px;</string>
             </widget>
            </item>
            <item row="2" column="1">
-            <widget class="QLineEdit" name="SUpasswordEntry_2">
+            <widget class="QLineEdit" name="SUcpasswordEntry">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -659,7 +659,7 @@ padding-right: 10px;</string>
           <property name="geometry">
            <rect>
             <x>30</x>
-            <y>90</y>
+            <y>100</y>
             <width>441</width>
             <height>40</height>
            </rect>
@@ -680,7 +680,7 @@ padding-right: 10px;</string>
            <string notr="true">color: rgb(245, 105, 101);</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is error&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>

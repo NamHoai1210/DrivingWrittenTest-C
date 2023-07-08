@@ -11,4 +11,5 @@
 bool readJSONFromResource(const QString& resourcePath, rapidjson::Document& document);
 std::vector<History*> readHistory();
 void writeHistory(std::vector<History*>);
+rapidjson::Value tojsonValueType(std::string value,rapidjson::Document::AllocatorType&);
 #endif // UTILS_H

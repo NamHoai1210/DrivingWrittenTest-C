@@ -37,6 +37,10 @@ set(PROJECT_SOURCES
         Entity/Question/question.cpp
         Entity/History/history.h
         Entity/History/history.cpp
+        Entity/Room/roomentity.cpp
+        Entity/Room/roomentity.h
+        Entity/User/user.cpp
+        Entity/User/user.h
         Utils/utils.cpp
         Utils/utils.h
         Online/onlinewindow.cpp
@@ -45,7 +49,10 @@ set(PROJECT_SOURCES
         Room/room.cpp
         Room/room.h
         Room/room.ui
-        db/history.txt
+        connect/connect.cpp
+        connect/connect.h
+        session/session.cpp
+        session/session.h
         resource.qrc
         ${TS_FILES}
 )

@@ -14,5 +14,6 @@
         <file>resources/images/me.svg</file>
         <file>resources/images/group.png</file>
         <file>resources/icons/down.png</file>
+        <file>resources/icons/logout.png</file>
     </qresource>
 </RCC>
