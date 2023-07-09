@@ -8,6 +8,7 @@ class Session
 private:
     static Session* instance;
     std::string username;
+    int rankPoint;
     RoomEntity* currentRoom;
     Session();
 public:
@@ -16,6 +17,8 @@ public:
     std::string getUsername();
     void saveRoom(RoomEntity*);
     RoomEntity* getCurrentRoom();
+    void saveRankPoint(int);
+    int getRankPoint();
 };
 
 #endif // SESSION_H

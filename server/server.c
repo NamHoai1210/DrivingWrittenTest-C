@@ -6,6 +6,8 @@
 #include <pthread.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
+#include <math.h>
+#include <time.h>
 #include "cJSON.h"
 
 #define MAX_CLIENTS 10
@@ -60,8 +62,27 @@ static cJSON *questions;
 static int num_questions = 0;
 pthread_mutex_t question_mutex;
 
+static int updateRankPoint (int point, int no){
+    float index = 1;
+    if(no >20 && no <=30){
+        index = 2;
+    }else if(no >30){
+        index =3;
+    }
+    float ratio = point/no;
+    if(ratio < 0.5){
+        int res = round((ratio-0.5)*(4.0-index));
+        return res;
+    }else{
+        int res = round((ratio-0.5)*index);
+        return res;
+    }
+    
+}
+
 static char *generate_room_id()
 {
+    srand ( time(NULL) );
     // Generate a random integer between 0 and 99999
     int random_num = rand() % 100000;
 
@@ -383,6 +404,7 @@ static void *handle_client(void *arg)
             {
                 cJSON_AddStringToObject(response, "status", "success");
                 cJSON_AddStringToObject(response, "message", "Login complete");
+                cJSON_AddNumberToObject(response, "rank_point", std->rank_point);
                 char *response_str = cJSON_Print(response);
                 send(client_socket, response_str, strlen(response_str), 0);
                 cJSON_Delete(request);
@@ -490,6 +512,7 @@ static void *handle_client(void *arg)
                 room->time_start = start;
                 room->duration = duration;
                 room->total_points = total_points;
+                room->rank_point_limit = rank_limit;
                 // room->num_students = 0;
                 num_rooms++;
                 cJSON_AddStringToObject(response, "status", "success");
@@ -616,7 +639,7 @@ static void *handle_client(void *arg)
         {
             char *room_id = cJSON_GetStringValue(cJSON_GetObjectItem(request, "room_id"));
             char *name = cJSON_GetStringValue(cJSON_GetObjectItem(request, "username"));
-            // test_room_t *room = find_room_by_id(room_id);
+            test_room_t *room = find_room_by_id(room_id);
             test_result_t *result = find_result_by_ids(name, room_id);
             if (result == NULL)
             {
@@ -628,7 +651,8 @@ static void *handle_client(void *arg)
                 student_t *student = find_student_by_name(name);
                 int points = cJSON_GetNumberValue(cJSON_GetObjectItem(request, "points"));
                 pthread_mutex_lock(&student_mutex);
-                student->rank_point += points;
+                student->rank_point += updateRankPoint(points,room->total_points);
+                if(student->rank_point < 0) student->rank_point = 0;
                 pthread_mutex_unlock(&student_mutex);
 
                 time_t start_time = cJSON_GetNumberValue(cJSON_GetObjectItem(request, "start_time"));
@@ -641,6 +665,7 @@ static void *handle_client(void *arg)
 
                 cJSON_AddStringToObject(response, "status", "success");
                 cJSON_AddStringToObject(response, "message", "Answer submitted successfully");
+                cJSON_AddNumberToObject(response, "rank_point",student->rank_point);
                 save_data();
             }
         }

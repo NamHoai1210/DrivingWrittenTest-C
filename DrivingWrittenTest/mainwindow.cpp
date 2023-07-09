@@ -47,6 +47,7 @@ void MainWindow::on_online_clicked()
 void MainWindow::on_signout_clicked()
 {
     Session::getInstance()->saveSession("");
+    Session::getInstance()->saveRankPoint(-1);
     ui->online->setText("Login ");
     ui->signout->hide();
     Connect::getInstance()->disconnectToServer();

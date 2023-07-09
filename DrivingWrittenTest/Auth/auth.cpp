@@ -32,6 +32,10 @@ bool AuthWindow::readResponse(char* res, QLabel* error){
         const std::string status = document["status"].GetString();
         if(status == "success"){
             error->setText("");
+            if(document.HasMember("rank_point") && document["rank_point"].IsInt()){
+                const int rank = document["rank_point"].GetInt();
+                Session::getInstance()->saveRankPoint(rank);
+            }
             return true;
         }else{
             if (document.HasMember("message") && document["message"].IsString()) {

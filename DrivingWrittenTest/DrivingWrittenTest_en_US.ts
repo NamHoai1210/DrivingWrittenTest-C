@@ -465,58 +465,67 @@ Do you want to save your changes?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="512"/>
-        <source>Choose a level below
- and start practising</source>
+        <location filename="Online/onlinewindow.ui" line="516"/>
+        <source>0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="537"/>
+        <location filename="Online/onlinewindow.ui" line="541"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Online/onlinewindow.ui" line="562"/>
+        <source>Your rank point:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Online/onlinewindow.ui" line="586"/>
         <source>100</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="563"/>
+        <location filename="Online/onlinewindow.ui" line="612"/>
         <source>Hard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="608"/>
+        <location filename="Online/onlinewindow.ui" line="657"/>
         <source>Duration:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="629"/>
+        <location filename="Online/onlinewindow.ui" line="678"/>
         <source>00:00:00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="653"/>
+        <location filename="Online/onlinewindow.ui" line="702"/>
         <source>23:00 12/10/2001</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="709"/>
+        <location filename="Online/onlinewindow.ui" line="758"/>
         <source>Result History</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="811"/>
+        <location filename="Online/onlinewindow.ui" line="860"/>
         <source>Room</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="832"/>
+        <location filename="Online/onlinewindow.ui" line="881"/>
         <source>Start Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="853"/>
+        <location filename="Online/onlinewindow.ui" line="902"/>
         <source>End Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="874"/>
+        <location filename="Online/onlinewindow.ui" line="923"/>
         <source>Score</source>
         <translation type="unfinished"></translation>
     </message>

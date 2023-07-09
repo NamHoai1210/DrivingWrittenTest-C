@@ -12,8 +12,6 @@ PracticeWindow::PracticeWindow(QWidget *parent)
     ui->setupUi(this);
     ui->stackedWidget->setCurrentIndex(1);
     ui->ChooseStack->setCurrentIndex(0);
-    std::string head = "Question ";
-    std::string tail = ". This this a question\nThis this a question";
     Question::readQuestionFile(this->qListHard,":/db/hard.json");
     Question::readQuestionFile(this->qListMedium,":/db/medium.json");
     Question::readQuestionFile(this->qListEasy,":/db/easy.json");

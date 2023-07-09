@@ -56,6 +56,7 @@ OnlineWindow::~OnlineWindow()
 
 void OnlineWindow::on_createRoom_3_clicked()
 {
+    timer->stop();
     hide();
     this->parent->show();
 }
@@ -213,6 +214,8 @@ void OnlineWindow::on_historyNav_clicked()
         initTable();
     }
     ui->OnlineStack->setCurrentIndex(0);
+    ui->name->setText(QString::fromStdString(Session::getInstance()->getUsername()));
+    ui->rankPoint->setText(QString::number(Session::getInstance()->getRankPoint()));
 }
 
 
@@ -383,6 +386,9 @@ bool OnlineWindow::SubmitAnswer(int point, int duration){
         const std::string status = doc["status"].GetString();
         if(status == "success"){
             ui->submitError->setText("");
+            if(doc.HasMember("rank_point") && doc["rank_point"].IsInt()){
+                Session::getInstance()->saveRankPoint(doc["rank_point"].GetInt());
+            }
             return true;
         }else{
             if (doc.HasMember("message") && doc["message"].IsString()) {

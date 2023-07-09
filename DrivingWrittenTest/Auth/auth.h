@@ -6,6 +6,7 @@
 #include <QDebug>
 #include <QLabel>
 #include "../connect/connect.h"
+#include "../session/session.h"
 QT_BEGIN_NAMESPACE
 namespace  Ui {
 class AuthWindow;

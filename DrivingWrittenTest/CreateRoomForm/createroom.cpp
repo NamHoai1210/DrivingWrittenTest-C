@@ -33,18 +33,30 @@ void CreateRoom::on_cancel_clicked()
 
 void CreateRoom::on_level_currentIndexChanged(int index)
 {
+    const int rank = Session::getInstance()->getRankPoint();
     switch (index) {
     case 0:
+        ui->error->setText("");
         this->room->setDuration(30);
         this->room->setTotalPoints(20);
         this->room->setRankPointLimit(0);
         break;
     case 1:
+        if(rank < 100) {
+            ui->error->setText("Not enought rank points");
+            break;
+        }
+        ui->error->setText("");
         this->room->setDuration(60);
         this->room->setTotalPoints(30);
         this->room->setRankPointLimit(100);
         break;
     case 2:
+        if(rank < 200) {
+            ui->error->setText("Not enought rank points");
+            break;
+        }
+        ui->error->setText("");
         this->room->setDuration(600);
         this->room->setTotalPoints(40);
         this->room->setRankPointLimit(200);

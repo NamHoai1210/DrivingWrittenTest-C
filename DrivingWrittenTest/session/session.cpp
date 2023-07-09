@@ -26,3 +26,11 @@ void Session::saveRoom(RoomEntity *room){
 RoomEntity* Session::getCurrentRoom(){
     return this->currentRoom;
 }
+
+int Session::getRankPoint(){
+    return this->rankPoint;
+}
+
+void Session::saveRankPoint(int rank){
+    this->rankPoint = rank;
+}

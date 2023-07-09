@@ -65,7 +65,7 @@ void Question::readQuestionFile(std::vector<Question*>& qList, const QString res
                 // Access the object properties
                 if (obj.HasMember("question") && obj["question"].IsString())
                 {
-                   const char* question =  obj["question"].GetString();
+                    const std::string question =  obj["question"].GetString();
                     q->setQuestion(question);
 
                 }
@@ -75,7 +75,8 @@ void Question::readQuestionFile(std::vector<Question*>& qList, const QString res
                     for(rapidjson::SizeType i=0;i< a.Size();i++){
                         if (a[i].IsString())
                         {
-                            q->addAnswer(a[i].GetString());
+                            const std::string answer = a[i].GetString();
+                            q->addAnswer(answer);
                         }
                     }
 

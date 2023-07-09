@@ -74,6 +74,11 @@ void Room::on_view_clicked()
 
 void Room::on_join_clicked()
 {
+    const int rankPoint = Session::getInstance()->getRankPoint();
+    if(rankPoint < this->room->getRankPointLimit()){
+        ui->error->setText("Not enough rank point");
+        return;
+    }
     rapidjson::Document document;
     document.SetObject();
 

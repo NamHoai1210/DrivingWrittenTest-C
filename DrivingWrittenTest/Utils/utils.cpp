@@ -21,7 +21,7 @@ bool readJSONFromResource(const QString& resourcePath, rapidjson::Document& docu
 
     if (tempDocument.HasParseError())
     {
-        std::cout << "Failed to parse the JSON file. Error code: " << tempDocument.GetParseError() << std::endl;
+        qWarning() << "Failed to parse the JSON file. Error code: " << tempDocument.GetParseError();
         return false;
     }
 
@@ -66,7 +66,7 @@ std::vector<History*> readHistory() {
 void writeHistory(std::vector<History*> history) {
 
     // Define the file path
-    QString filePath = basePath + "db/history.txt";  // Assuming the file is located in the resource directory
+    QString filePath = basePath + "/db/history.txt";  // Assuming the file is located in the resource directory
 
     // Open the file for writing
     QFile file(filePath);

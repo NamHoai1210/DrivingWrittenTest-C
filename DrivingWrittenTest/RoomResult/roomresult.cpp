@@ -13,7 +13,7 @@ RoomResult::RoomResult(QWidget *parent, std::string roomId, std::string level, s
     ui(new Ui::RoomResult)
 {
     ui->setupUi(this);
-    ui->roomId->setText(QString::fromStdString(roomId);
+    ui->roomId->setText(QString::fromStdString(roomId));
     QString prefix = QString("color: rgb(255, 255, 255);border-radius: 10px;");
     if(level == "EASY")
         ui->level->setStyleSheet(QString(prefix + "background-color: #649696;"));
