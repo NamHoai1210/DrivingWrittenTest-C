@@ -15,5 +15,6 @@
         <file>resources/images/group.png</file>
         <file>resources/icons/down.png</file>
         <file>resources/icons/logout.png</file>
+        <file>resources/icons/reload.png</file>
     </qresource>
 </RCC>

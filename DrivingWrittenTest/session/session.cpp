@@ -18,3 +18,11 @@ void Session::saveSession(std::string username){
 std::string Session::getUsername(){
     return this->username;
 }
+
+void Session::saveRoom(RoomEntity *room){
+    this->currentRoom = room;
+}
+
+RoomEntity* Session::getCurrentRoom(){
+    return this->currentRoom;
+}

@@ -87,3 +87,5 @@ rapidjson::Value tojsonValueType(std::string name,rapidjson::Document::Allocator
     rapidjson::Value result(name.c_str(), static_cast<rapidjson::SizeType>(name.length()), allocator);
     return result;
 }
+
+

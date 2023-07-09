@@ -15,11 +15,14 @@ public:
     void setDuration(const std::string &newDuration);
     float getScore() const;
     void setScore(float newScore);
+    std::string getEnd() const;
+    void setEnd(const std::string &newTime);
 
 private:
     std::string time;
     std::string level;
     std::string duration;
+    std::string end;
     float score;
 
 };

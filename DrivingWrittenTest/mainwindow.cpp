@@ -14,7 +14,6 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::onSuccess(std::string username){
-    qDebug() <<"catch";
     this->authWindow->close();
     ui->online->setText("Return ");
     ui->signout->show();
@@ -39,7 +38,6 @@ void MainWindow::on_online_clicked()
         hide();
         authWindow->show();
     }else{
-    this->onlineWindow = new OnlineWindow(this);
     hide();
     onlineWindow->show();
     }

@@ -41,7 +41,7 @@ bool AuthWindow::readResponse(char* res, QLabel* error){
             }
         }
     }
-    ui->SIerror->setText("Unknow error");
+    error->setText("Unknow error");
     return false;
 }
 
@@ -79,7 +79,6 @@ void AuthWindow::on_signIn_4_clicked()
     char* res = Connect::getInstance()->both(user->toJsonString("signup"));
     bool check = readResponse(res, ui->SUerror);
     if(check){
-        qDebug() << "true";
         ui->SUerror->setText("Successful! Please return the Sign In screen to continue!");
         ui->SUerror->setStyleSheet(QString("color: green;"));
     }

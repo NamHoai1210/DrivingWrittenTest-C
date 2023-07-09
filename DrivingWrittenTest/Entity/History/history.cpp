@@ -2,13 +2,14 @@
 
 History::History()
 {
-
+    this->end = "";
 }
 History::History(std::string time,std::string level,std::string duration,float score = 0){
     this->time = time;
     this->level = level;
     this->duration = duration;
     this-> score =  score;
+    this->end = "";
 }
 
 std::string History::getTime() const
@@ -49,4 +50,14 @@ float History::getScore() const
 void History::setScore(float newScore)
 {
     score = newScore;
+}
+
+std::string History::getEnd() const
+{
+    return end;
+}
+
+void History::setEnd(const std::string &newTime)
+{
+    end = newTime;
 }

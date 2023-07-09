@@ -2,6 +2,7 @@
 #define UTILS_H
 #include "../rapidjson/document.h"
 #include "../rapidjson/istreamwrapper.h"
+#include "../rapidjson/writer.h"
 #include <iostream>
 #include <QFile>
 #include <QResource>
@@ -12,4 +13,5 @@ bool readJSONFromResource(const QString& resourcePath, rapidjson::Document& docu
 std::vector<History*> readHistory();
 void writeHistory(std::vector<History*>);
 rapidjson::Value tojsonValueType(std::string value,rapidjson::Document::AllocatorType&);
+
 #endif // UTILS_H

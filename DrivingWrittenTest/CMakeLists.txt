@@ -53,6 +53,15 @@ set(PROJECT_SOURCES
         connect/connect.h
         session/session.cpp
         session/session.h
+        CreateRoomForm/createroom.cpp
+        CreateRoomForm/createroom.h
+        CreateRoomForm/createroom.ui
+        WaitingScreen/waiting.cpp
+        WaitingScreen/waiting.h
+        WaitingScreen/waiting.ui
+        RoomResult/roomresult.cpp
+        RoomResult/roomresult.h
+        RoomResult/roomresult.ui
         resource.qrc
         ${TS_FILES}
 )

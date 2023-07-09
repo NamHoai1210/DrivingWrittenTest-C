@@ -18,7 +18,8 @@ Exam::Exam(QWidget *parent, std::vector<Question*> qList, int time,std::string l
     QWidget(parent),
     ui(new Ui::Exam)
 {
-    int amountPage = ceil(qList.size()/5);
+    float size =qList.size();
+    int amountPage = std::ceil(size/5);
     ui->setupUi(this);
     this->level = level;
     ui->level->setText(QString::fromStdString(level));
@@ -136,14 +137,16 @@ void Exam::updateTime()
 
 std::string Exam::getStartTime(){
     return this->startTime;
-};
+}
 std::string Exam::getLevel(){
     return this->level;
-};
+}
 std::string Exam::getDuration(){
     return this->duration->toString("hh:mm:ss").toStdString();
-};
-
+}
+int Exam::getDurationInt(){
+    return this->duration->second();
+}
 Exam::~Exam()
 {
     delete ui;

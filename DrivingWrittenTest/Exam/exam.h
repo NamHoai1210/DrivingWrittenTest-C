@@ -32,6 +32,7 @@ public:
     std::string getStartTime();
     std::string getLevel();
     std::string getDuration();
+    int getDurationInt();
 protected slots:
     void updateTime();
 signals:

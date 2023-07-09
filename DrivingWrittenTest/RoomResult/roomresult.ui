@@ -130,7 +130,7 @@ border-top: 10px solid white;
    </column>
    <column>
     <property name="text">
-     <string>Duration</string>
+     <string>End Time</string>
     </property>
     <property name="background">
      <color>

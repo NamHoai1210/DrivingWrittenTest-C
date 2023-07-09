@@ -47,7 +47,7 @@ char* Connect::receiveServer(){
     int valread = read(sockfd, buffer, MAX_BUFFER_SIZE);
     if (valread <= 0)
     {
-        return "";
+        return nullptr;
     }
     char *message = (char*)malloc(valread + 1);
     strncpy(message, buffer, valread);

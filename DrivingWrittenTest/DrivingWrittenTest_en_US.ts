@@ -111,29 +111,45 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="CreateRoomForm/createroom.ui" line="195"/>
+        <location filename="CreateRoomForm/createroom.ui" line="185"/>
         <source>Create Room</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="CreateRoomForm/createroom.ui" line="228"/>
+        <location filename="CreateRoomForm/createroom.ui" line="218"/>
         <source>Duration:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="CreateRoomForm/createroom.ui" line="243"/>
+        <location filename="CreateRoomForm/createroom.ui" line="248"/>
         <source>No. Questions:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="CreateRoomForm/createroom.ui" line="258"/>
-        <location filename="CreateRoomForm/createroom.ui" line="273"/>
+        <location filename="CreateRoomForm/createroom.ui" line="420"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="CreateRoomForm/createroom.ui" line="233"/>
+        <location filename="CreateRoomForm/createroom.ui" line="263"/>
+        <location filename="CreateRoomForm/createroom.ui" line="293"/>
         <source>0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="CreateRoomForm/createroom.ui" line="317"/>
+        <location filename="CreateRoomForm/createroom.ui" line="278"/>
+        <source>Rank Point Limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="CreateRoomForm/createroom.ui" line="337"/>
         <source>Create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="CreateRoomForm/createroom.ui" line="386"/>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -372,12 +388,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Exam/exam.cpp" line="88"/>
+        <location filename="Exam/exam.cpp" line="89"/>
         <source>My Application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Exam/exam.cpp" line="89"/>
+        <location filename="Exam/exam.cpp" line="90"/>
         <source>The document has been modified.
 Do you want to save your changes?</source>
         <translation type="unfinished"></translation>
@@ -444,84 +460,64 @@ Do you want to save your changes?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="420"/>
+        <location filename="Online/onlinewindow.ui" line="472"/>
         <source>&lt; Back to Home</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="460"/>
+        <location filename="Online/onlinewindow.ui" line="512"/>
         <source>Choose a level below
  and start practising</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="485"/>
+        <location filename="Online/onlinewindow.ui" line="537"/>
         <source>100</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="511"/>
+        <location filename="Online/onlinewindow.ui" line="563"/>
         <source>Hard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="556"/>
+        <location filename="Online/onlinewindow.ui" line="608"/>
         <source>Duration:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="577"/>
+        <location filename="Online/onlinewindow.ui" line="629"/>
         <source>00:00:00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="601"/>
+        <location filename="Online/onlinewindow.ui" line="653"/>
         <source>23:00 12/10/2001</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="638"/>
+        <location filename="Online/onlinewindow.ui" line="709"/>
         <source>Result History</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="740"/>
-        <source>Time</source>
+        <location filename="Online/onlinewindow.ui" line="811"/>
+        <source>Room</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="761"/>
-        <source>Level</source>
+        <location filename="Online/onlinewindow.ui" line="832"/>
+        <source>Start Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="782"/>
-        <source>Duration</source>
+        <location filename="Online/onlinewindow.ui" line="853"/>
+        <source>End Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Online/onlinewindow.ui" line="803"/>
+        <location filename="Online/onlinewindow.ui" line="874"/>
         <source>Score</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="Online/onlinewindow.ui" line="852"/>
-        <source>RoomID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="Online/onlinewindow.ui" line="889"/>
-        <source>Please wait until the host starts...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="Online/onlinewindow.ui" line="948"/>
-        <source>&lt; Out Room</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="Online/onlinewindow.ui" line="998"/>
-        <source>Start &gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -631,34 +627,57 @@ Do you want to save your changes?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Room/room.ui" line="68"/>
+        <location filename="Room/room.ui" line="69"/>
         <source>Available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Room/room.ui" line="102"/>
+        <location filename="Room/room.ui" line="103"/>
         <source>Join</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Room/room.ui" line="121"/>
-        <location filename="Room/room.ui" line="166"/>
-        <location filename="Room/room.ui" line="243"/>
+        <location filename="Room/room.ui" line="293"/>
+        <source>Duration:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Room/room.ui" line="314"/>
+        <source>00:00:00</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Room/room.ui" line="338"/>
+        <source>23:00 12/10/2001</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Room/room.ui" line="199"/>
+        <source>This is error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Room/room.ui" line="248"/>
+        <source>120</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Room/room.ui" line="221"/>
         <source>RoomId</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Room/room.ui" line="144"/>
+        <location filename="Room/room.ui" line="123"/>
         <source>Busy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Room/room.ui" line="189"/>
+        <location filename="Room/room.ui" line="146"/>
         <source>Finished</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Room/room.ui" line="224"/>
+        <location filename="Room/room.ui" line="181"/>
         <source>View result</source>
         <translation type="unfinished"></translation>
     </message>
@@ -677,7 +696,7 @@ Do you want to save your changes?</source>
     </message>
     <message>
         <location filename="RoomResult/roomresult.ui" line="133"/>
-        <source>Duration</source>
+        <source>End Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -698,6 +717,34 @@ Do you want to save your changes?</source>
     <message>
         <location filename="RoomResult/roomresult.ui" line="246"/>
         <source>Level</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Waiting</name>
+    <message>
+        <location filename="WaitingScreen/waiting.ui" line="14"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="WaitingScreen/waiting.ui" line="76"/>
+        <source>&lt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="WaitingScreen/waiting.ui" line="101"/>
+        <source>00:00:00</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="WaitingScreen/waiting.ui" line="126"/>
+        <source>RoomID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="WaitingScreen/waiting.ui" line="147"/>
+        <source>Please wait until the exam start...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

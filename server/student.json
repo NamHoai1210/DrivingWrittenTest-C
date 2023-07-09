@@ -1,11 +1,11 @@
 [{
 		"username":	"nam",
 		"passwork":	"123",
-		"rank_point":	200
+		"rank_point":	262
 	}, {
 		"username":	"cuong",
 		"passwork":	"123",
-		"rank_point":	250
+		"rank_point":	251
 	}, {
 		"username":	"dung",
 		"passwork":	"123",
@@ -13,5 +13,13 @@
 	}, {
 		"username":	"nga",
 		"passwork":	"123",
+		"rank_point":	0
+	}, {
+		"username":	"can",
+		"passwork":	"123",
+		"rank_point":	0
+	}, {
+		"username":	"ToiLaNam",
+		"passwork":	"password",
 		"rank_point":	0
 	}]
