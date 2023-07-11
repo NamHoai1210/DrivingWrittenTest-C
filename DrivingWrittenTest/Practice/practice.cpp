@@ -45,8 +45,8 @@ void PracticeWindow::Submit(){
         if(i>=result.size()) break;
         if(result[i]== qList[i]->getTrue()) numTrue++;
     }
-    ui->score->setText(QString::number(numTrue*2.5));
-    History * h = new History(startTime,level,duration,numTrue*2.5);
+    ui->score->setText(QString::number(numTrue));
+    History * h = new History(startTime,level,duration,numTrue);
     this->history.insert(this->history.begin(),h);
     writeHistory(this->history);
     initTable();

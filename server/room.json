@@ -1,1 +1,22 @@
-[]
+[{
+		"id":	"31974",
+		"name":	"Test Room 1",
+		"time_start":	1688994635,
+		"duration":	30,
+		"total_points":	20,
+		"rank_point_limit":	0
+	}, {
+		"id":	"69927",
+		"name":	"Test Room 2",
+		"time_start":	1689039233,
+		"duration":	30,
+		"total_points":	20,
+		"rank_point_limit":	0
+	}, {
+		"id":	"82294",
+		"name":	"Test Room 3",
+		"time_start":	1689041910,
+		"duration":	30,
+		"total_points":	20,
+		"rank_point_limit":	0
+	}]

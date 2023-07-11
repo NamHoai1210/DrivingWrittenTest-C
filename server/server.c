@@ -71,11 +71,9 @@ static int updateRankPoint (int point, int no){
     }
     float ratio = point/no;
     if(ratio < 0.5){
-        int res = round((ratio-0.5)*(4.0-index));
-        return res;
+        return round((ratio-0.5)*(4.0-index));
     }else{
-        int res = round((ratio-0.5)*index);
-        return res;
+        return round((ratio-0.5)*index);
     }
     
 }
